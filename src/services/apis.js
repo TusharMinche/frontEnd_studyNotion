@@ -1,4 +1,4 @@
-const BASE_URL = "https://backend-study-notion-nudywayfa-tushar-minches-projects.vercel.app/api/v1"
+const BASE_URL = "https://backend-study-notion-2-ne0w9uipc-tushar-minches-projects.vercel.app/api/v1"
 // const BASE_URL = process.env.REACT_APP_BASE_URL;
 
 // AUTH ENDPOINTS
