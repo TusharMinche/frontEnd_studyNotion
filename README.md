@@ -34,9 +34,7 @@ The platform follows a client-server architecture with three main components:
 
 ### Architecture Diagram
 
-```
 ![StudyNotion Architecture](https://github.com/TusharMinche/frontEnd_studyNotion/blob/main/src/assets/Readme/architecture.jpg?raw=true)
-```
 
 ## Front-end
 
