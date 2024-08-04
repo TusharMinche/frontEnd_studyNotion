@@ -1,31 +1,177 @@
-# React & Tailwind CSS Starter Pack
+# StudyNotion: An Ed-Tech Platform
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+## Table of Contents
+1. [Project Description](#project-description)
+2. [System Architecture](#system-architecture)
+3. [Front-end](#front-end)
+4. [Back-end](#back-end)
+5. [API Design](#api-design)
+6. [Deployment](#deployment)
+7. [Future Enhancements](#future-enhancements)
 
-## Usage
+## Project Description
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+StudyNotion is a fully functional ed-tech platform built using the MERN stack (MongoDB, ExpressJS, ReactJS, NodeJS). It aims to provide:
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+- A seamless and interactive learning experience for students
+- A platform for instructors to showcase their expertise and connect with learners globally
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+Key Features:
+- User authentication and authorization
+- Course creation and management
+- Content consumption
+- Rating system for courses
+- Payment integration
+- Cloud-based media management
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+## System Architecture
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+The platform follows a client-server architecture with three main components:
+
+1. Front-end (Client)
+2. Back-end (Server)
+3. Database
+
+### Architecture Diagram
+
+```
+![StudyNotion Architecture](https://github.com/TusharMinche/frontEnd_studyNotion/blob/main/src/assets/Readme/architecture.jpg?raw=true)
+```
+
+## Front-end
+
+The front-end is built using ReactJS and designed with Figma. It includes the following pages:
+
+### For Students:
+- Homepage
+- Course List
+- Wishlist
+- Cart Checkout
+- Course Content
+- User Details
+- User Edit Details
+
+### For Instructors:
+- Dashboard
+- Insights
+- Course Management Pages
+- View and Edit Profile Details
+
+### For Admin (Future Scope):
+- Dashboard
+- Insights
+- Instructor Management
+- User Management
+- Course Management
+
+### Technologies Used:
+- ReactJS
+- CSS
+- Tailwind
+- Redux (for state management)
+
+## Back-end
+
+The back-end uses a monolithic architecture built with Node.js and Express.js.
+
+### Features:
+- User authentication and authorization
+- Course management
+- Payment integration (Razorpay)
+- Cloud-based media management (Cloudinary)
+- Markdown formatting for course content
+
+### Technologies Used:
+- Node.js
+- Express.js
+- MongoDB
+- JWT (JSON Web Tokens)
+- Bcrypt
+- Mongoose
+
+### Data Models:
+- Student schema
+- Instructor schema
+- Course schema
+
+## API Design
+
+The API follows REST architectural style and uses JSON for data exchange.
+
+### Sample API Endpoints:
+- POST /api/auth/signup
+- POST /api/auth/login
+- GET /api/courses
+- POST /api/courses
+- PUT /api/courses/:id
+- DELETE /api/courses/:id
+
+## Deployment
+
+### Hosting Services:
+- Front-end: Vercel
+- Back-end: Render or Railway
+- Database: MongoDB Atlas
+- Media files: Cloudinary
+
+## Future Enhancements
+
+1. Gamification features (Medium priority)
+2. Personalized learning paths (High priority)
+3. Social learning features (Medium priority)
+4. Mobile app development (High priority)
+5. Machine learning-powered recommendations (Medium to High priority)
+6. Virtual reality/augmented reality integration (Low to Medium priority)
+
+## Getting Started
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/TusharMinche/frontEnd_studyNotion.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd frontEnd_studyNotion
+   ```
+
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+4. Create a `.env` file in the root directory and add necessary environment variables (if any).
+
+5. Start the development server:
+   ```
+   npm start
+   ```
+
+6. Open your browser and visit `http://localhost:3000` to view the application.
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+We welcome contributions to the StudyNotion project! Here are some guidelines to follow:
+
+1. Fork the repository and create your branch from `main`.
+2. If you've added code that should be tested, add tests.
+3. Ensure your code lints.
+4. Issue that pull request!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Contact
+
+For any queries or suggestions, please reach out to:
+
+Tushar Minche
+- GitHub: [@TusharMinche](https://github.com/TusharMinche)
+- Email: [tusharminche@gmail.com]
+
+Project Link: [https://github.com/TusharMinche/frontEnd_studyNotion](https://github.com/TusharMinche/frontEnd_studyNotion)
+
+---
