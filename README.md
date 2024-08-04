@@ -107,8 +107,8 @@ The API follows REST architectural style and uses JSON for data exchange.
 ## Deployment
 
 ### Hosting Services:
-- Front-end: Vercel
-- Back-end: Render or Railway
+- Front-end: Render
+- Back-end: Vercelt
 - Database: MongoDB Atlas
 - Media files: Cloudinary
 
