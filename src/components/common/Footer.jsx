@@ -127,7 +127,7 @@ const Footer = () => {
               </div>
             ))}
           </div>
-          <div className="text-center">Made with ❤️ © {(new Date().getFullYear())} Studynotion</div>
+          <div className="text-center">Made with ❤️ © {(new Date().getFullYear())} TusharMinche</div>
         </div>
       </div>
     </div>
